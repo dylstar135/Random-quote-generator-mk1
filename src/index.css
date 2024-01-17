@@ -6,7 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background: #1c2238;
+  background-image: url('/home/dylstar/Projects/lotr-quote/src/components/assets/capnsnap-utYSgMOIm5w-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 code {

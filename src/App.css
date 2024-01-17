@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url('/home/dylstar/Projects/lotr-quote/src/components/assets/capnsnap-utYSgMOIm5w-unsplash.jpg');
+  background-size: cover; 
+  background-position: center; 
 }
 
 .App-logo {
@@ -14,8 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
