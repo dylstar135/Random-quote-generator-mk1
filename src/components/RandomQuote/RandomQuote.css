@@ -1,5 +1,5 @@
-.container{
-    display:flex;
+.container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
@@ -7,60 +7,72 @@
     background: rgb(804515);
     width: 800px;
     border-radius: 15px;
-    opacity: 0; 
-    animation: fadeIn 1s ease-in-out forwards; 
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-20px); 
+        transform: translateY(-20px);
     }
     to {
         opacity: 1;
         transform: translateY(0);
     }
-
 }
 
-.quote{
+.quote {
     padding: 60px 110px;
     color: white;
     font-size: 32px;
     text-align: center;
-
 }
 
-.line{
+.line {
     width: 680px;
     height: 1.5px;
     background: white;
-
 }
 
-.bottom{
+.bottom {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column; /* Change to column for smaller screens */
+    justify-content: center; /* Center content vertically */
     align-items: center;
     margin: 30px 0px;
 }
 
-.author{
+.author {
     color: white;
     font-size: 20px;
     font-weight: 500;
-
+    margin-top: 10px; /* Add margin for spacing */
 }
 
-.icons{
+.icons {
     display: flex;
-    gap: 40px;
-
+    gap: 20px; /* Decrease the gap for smaller screens */
+    margin-top: 10px; /* Add margin for spacing */
 }
 
-.icons img{
+.icons img {
     cursor: pointer;
     height: 36px;
-    
+}
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .quote {
+        padding: 40px; /* Adjust padding for smaller screens */
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .line {
+        width: 90%; /* Adjust width for smaller screens */
+    }
 }
