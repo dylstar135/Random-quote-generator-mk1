@@ -10,6 +10,16 @@
   pointer-events: none;
 }
 
+@media (max-width: 768px) {
+  .App-logo {
+    height: 20vmin; /* Adjust the height for smaller screens */
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin); /* Adjust the font size for smaller screens */
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
