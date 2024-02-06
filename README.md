@@ -15,19 +15,15 @@ Installation:
 ## Clone the repository to your local machine.
 bash
 Copy code
-git clone https://github.com/your-username/RandomQuoteApp.git
+git clone https://github.com/dylstar135/Random-quote-generator-mk1/tree/main
 Dependencies:
 
 ## Ensure you have Node.js and npm installed on your machine.
 Navigate to the project directory and install dependencies:
-bash
-Copy code
 npm install
 Run the App:
 
 ## Start the development server:
-bash
-Copy code
 npm start
 Open your browser and visit http://localhost:3000 to view the app.
 Usage
@@ -39,7 +35,7 @@ Twitter Sharing:
 
 Click the Twitter icon to share the current quote on your Twitter account.
 Customization
-Explore the codebase to understand how quotes are loaded and displayed. As you tailor this app to a Lord of the Rings theme, consider incorporating Tolkien's quotes and adjusting the visual elements to match the magical atmosphere of Middle-earth.
+
 
 Support
 For any issues, questions, or suggestions, feel free to open an issue on GitHub.
