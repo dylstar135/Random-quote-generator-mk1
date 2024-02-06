@@ -40,7 +40,7 @@ Click the Twitter icon to share the current quote on your Twitter account.
 Customization
 
 
-Support
+
 For any issues, questions, or suggestions, feel free to open an issue on GitHub.
 
 License
