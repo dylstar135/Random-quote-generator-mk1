@@ -40,7 +40,7 @@ Click the Twitter icon to share the current quote on your Twitter account.
 Customization
 
 
-![Screenshot](URL_to_your_screenshot)
+![Screenshot]([URL_to_your_screenshot](https://github.com/dylstar135/Random-quote-generator-mk1/blob/main/quote%20app%20shot.png))
 
 For any issues, questions, or suggestions, feel free to open an issue on GitHub.
 
