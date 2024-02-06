@@ -16,6 +16,7 @@ Installation:
 ## Clone the repository to your local machine.
 
 git clone https://github.com/dylstar135/Random-quote-generator-mk1/tree/main
+
 Dependencies:
 
 ## Ensure you have Node.js and npm installed on your machine.
