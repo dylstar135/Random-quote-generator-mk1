@@ -9,23 +9,25 @@ The app fetches a diverse collection of quotes from an external API (https://typ
 The app is designed with the future integration of a Lord of the Rings theme in mind. As you customize, envision the quotes reflecting the profound wisdom and magic of Tolkien's world.
 3. Tweet Quotes:
 Share your favorite quotes seamlessly on Twitter with the integrated Twitter sharing functionality.
+
 Getting Started
 Installation:
 
 ## Clone the repository to your local machine.
-bash
-Copy code
+
 git clone https://github.com/dylstar135/Random-quote-generator-mk1/tree/main
 Dependencies:
 
 ## Ensure you have Node.js and npm installed on your machine.
 Navigate to the project directory and install dependencies:
 npm install
+
 Run the App:
 
 ## Start the development server:
 npm start
 Open your browser and visit http://localhost:3000 to view the app.
+
 Usage
 Random Quote:
 
