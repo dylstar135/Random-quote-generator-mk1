@@ -40,6 +40,7 @@ Click the Twitter icon to share the current quote on your Twitter account.
 Customization
 
 
+![Screenshot](URL_to_your_screenshot)
 
 For any issues, questions, or suggestions, feel free to open an issue on GitHub.
 
